@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Press+Start+2P&display=swap');
+header img{ 
+    position: absolute; 
+    width: 100px; 
+    height: 100px;
+} 
+header p{ 
+    background-color: rgb(179, 15, 191);
+    position: absolute;
+    top: 0px;
+    left: 113px;
+    padding: 39px;
+    padding-right: 948px;
+    box-sizing: border-box;
+} 
+div main #titulo{ 
+    font-family: 'Press Start 2P', cursive;
+    position: relative;
+    top: 191px;
+    right: 3px;
+    background: darkred;
+    border-radius: 11px;
+    padding: 10px;
+    } 
+    #combate{ 
+    position: relative; 
+    font-family: 'Itim', cursive;
+    top: 216px;
+    right: 3px;
+    background-color: rgb(176, 9, 48);
+    }

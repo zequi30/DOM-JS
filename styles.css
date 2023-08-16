@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Press+Start+2P&display=swap');
+ .titulo { 
+    color: blue; 
+    font-size: 50px; 
+    margin-top: -1059px
+   } 
+   body{ 
+    font-family: 'Press Start 2P', cursive; 
+    background-color: #567189;
+   }
+label { 
+    background-color: aqua; 
+    width: 450px; 
+    height: 50px; 
+    padding: 30px;  
+    box-sizing: border-box;
+} 
+input { 
+    background-color: blue;
+    width: 20px;
+    height: 20px
+} 
+button{ 
+    background-color: #84D2C5; 
+    width: 280px;
+    height: 30px; 
+    
+} 
+
+#seleccionar-mascota{ 
+    display: flex; 
+    flex-direction: column;
+align-content: space-around;
+justify-content: space-around;
+flex-wrap: wrap;
+align-items: center;
+} 
+.tarjetas, .tarjetas-ataques{ 
+    display: flex; 
+    gap: 20px; 
+
+} 
+.subtitulo { 
+    color: beige; 
+    font-size: 30px; 
+    margin-top: -100px
+}
+.tarjeta-de-mokepon{ 
+    background-color: aqua;
+    width: 350px;
+    height: 243px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid lightgreen;
+    display: inline-block;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.tarjeta-de-mokepon img { 
+    height: 155px;
+}         
+#boton-mascota{  
+    width: 230px; 
+    height: 66px; 
+    border-radius: 10px; 
+    background-color: #C27664; 
+    border: 2px solid wheat; 
+    color: wheat; 
+    font-family: 'Itim', cursive;
+    margin-top: -75px; 
+    margin-right: 10px; 
+    margin-left: 10px; 
+    margin-bottom: 10px;
+} 
+#seleccionar-ataque{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.boton-de-ataque{ 
+    background-color: #C27664; 
+    padding: 30px;
+    box-sizing: border-box; 
+    border-radius: 20px; 
+    color: lightyellow; 
+    font-family: 'Itim', cursive;   
+} 
+#mensajes{ 
+    width: 200px;
+    padding: 120px;
+    background-color:#263159;
+    margin-top: 20px;
+    border-radius: 20px; 
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+input { 
+     display: none;
+}  
+input:checked + label{ 
+    background-color: #567189;
+}
+#boton-reiniciar{ 
+    border: none; 
+    color: #567189; 
+    font-family: 'Itim', cursive; 
+    
+} 
+.ataques{ 
+    display: grid; 
+    grid-template-columns: 200px 200px;
+} 
+#resultado{ 
+    padding: 20px; 
+} 
+.ataque-jugador, .oponentes{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+} 
+#ver-mapa{ 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+} 
+#ver-mapa button{ 
+    width: 181px;
+    height: 31px;
+    border-radius: 10px;
+    background-color: #C27664;
+    border: 2px solid wheat;
+    color: wheat;
+    font-family: 'Itim', cursive;
+    margin: 10px
+}
+ 
+@media (max-width:860px) { 
+    .tarjetas, .tarjetas-ataques{ 
+flex-direction: column;
+    } 
+    
+} 
+
+@media (max-width:360px) { 
+ #ver-mapa div{ 
+    display: flex; 
+    align-items: center;
+flex-direction: column;
+    } 
+    
+} 

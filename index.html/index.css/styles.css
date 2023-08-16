@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.contenedor-imagen {
+    display: flex;
+}
+
+.contenedor-imagen img {
+    width: 100%;
+}
+
+/* Estilos del header */
+header {
+    background-color: rgb(0 0 0);
+    padding: 10px 50px;
+}
+
+#logo {
+    width: 100px;
+}
+
+#logo img {
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+/* Estilos del hero */
+#hero {
+    position: relative;
+}
+
+#hero #computadora {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .contenedor-informacion {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0 50px;
+}
+
+#hero .contenedor-informacion #foto {
+    width: 200px; 
+    height: 200px; 
+}
+
+#hero .contenedor-informacion #foto img {
+    border-radius: 100%; 
+    transform: translateY(50%); 
+    border: 4px solid #fff; 
+    
+}
+
+#informacion{  
+    position: absolute;
+    top: 50%; 
+    transform: translateY(50%);
+    left: 160px;
+    width: 100%;
+    padding: 0 50px;
+    color: #fff;
+    width: calc(100%-200px);
+    font-weight: bold; 
+
+} 
+
+span{ 
+    display: inline-block; 
+    color: #fff; 
+    margin-bottom: 70px; 
+} 
+/* aqui van los disenos del main*/    
+main p { 
+    display: flex; 
+    justify-content: center;
+    margin-top: 40px; 
+    padding: 20px 20px;
+}
+main .iconos-sociales{ 
+    display: flex; 
+    justify-content: center;
+    margin-top: 40px; 
+}  
+main .iconos-sociales img{ 
+    display: flex; 
+    justify-content: center;
+    margin-top: 40px; 
+    width: 150px; 
+    height: 150px;
+} 
+.icono-social li{ 
+    margin-left: 8px; 
+} 
+
+main .iconos-sociales .icono-social{ 
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    padding: 15px; 
+    margin-left: 8px; 
+    border-radius: 8px; 
+    width: 100%; 
+    height: 100%;
+}
+main .iconos-sociales #github{ 
+background:#232722 ;
+} 
+main .iconos-sociales #instagram{ 
+    background:#b304aa;
+} 
+main .iconos-sociales #twitter{ 
+    background: #1da1f2;
+} 
+main .iconos-sociales #linkedin{ 
+   background: #121f3d; 
+} 
+main .iconos-sociales #whatsapp{ 
+   background: #00b700;
+}
